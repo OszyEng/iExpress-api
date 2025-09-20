@@ -4,6 +4,7 @@ Api para seguidores y mensajes
 iExpress API
 
 Description
+
 The iExpress API is a platform backend built with Node.js, Express, and PostgreSQL. It allows users to register, log in, follow other users, create posts and replies, and search for posts. Authentication is handled via session IDs, and the API is documented with Swagger for easy testing and exploration.
 
 Key features:
@@ -16,12 +17,14 @@ Key features:
 
 
 Quick Start
+
 Requirements
 - Docker and Docker Compose installed
 - Node.js
 - CMD/Terminal to run commands
 
 Setup
+
 1. Clone the repository:
 
    git clone https://github.com/OszyEng/iExpress-api
@@ -46,6 +49,7 @@ Setup
    The API will be available at `http://localhost:3000`, and Swagger UI at `http://localhost:3000/api-docs`.
 
 Stop the Application
+
 - Stop containers:
   docker-compose down
 
@@ -54,6 +58,7 @@ Stop the Application
 
 
 Usage
+
 Accessing the API
 - Base URL: `http://localhost:3000`
 - Swagger UI: `http://localhost:3000/api-docs`
